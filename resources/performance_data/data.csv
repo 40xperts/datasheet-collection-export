@@ -1,0 +1,96 @@
+"Model Series","Model","Hardware Accelerated 400 GE/200 GE QSFP-DD/56/100 GE QSFP28/40 GE QSFP+ Ports/Slots","Hardware Accelerated 25 GE SFP28/10 GE SFP+/GE SFP Slots","GE RJ45 Ports","GE RJ45 Management/HA Ports","GE SFP Slots","Onboard Storage","IPS Throughput (Gbps)","NGFW Throughput (Gbps)","Threat Protection Throughput (Gbps)","IPv4 Firewall Throughput (1518/512/64 byte, UDP) (Gbps)","Firewall Latency (64 byte, UDP)","Concurrent Sessions (TCP) (Million)","New Sessions/Second (TCP) (Million)","IPsec VPN Throughput (512 byte) (Gbps)","SSL Inspection Throughput (IPS, avg. HTTPS) (Gbps)","Concurrent SSL-VPN Users (Recommended Maximum, Tunnel Mode)","Virtual Domains (Default/Maximum)","Maximum Number of FortiSwitches Supported","Form Factor","Height x Width x Length (inches)","Weight (lbs)","Power Consumption (Average/Maximum) (W)","Redundant Power Supplies"
+"7000F Series","FG-7081F","16","80","N/A","4 (MGMT/HA)","N/A","4 TB SSD","405","330","312","1.89/1.88/1.129 Tbps","7.5 µs","600","5.4","378","324","30,000","10/500","300","Rack Mount, 12 RU (Chassis)","21.41 x 17.33 x 26.6","365.26","6100/7300 (AC)","Hot Swappable (6x PSU)"
+"7000F Series","FG-7121F","24","80","N/A","4 (MGMT/HA)","N/A","4x 4 TB SSD","675","550","520","1.89/1.88/1.129 Tbps","7.5 µs","1,000","9","630","540","30,000","10/500","300","Rack Mount, 16 RU (Chassis)","28.63 x 17.33 x 26.6","447.36","9754/8296 (AC)","Hot Swappable (8x PSU)"
+---
+"6000F Series","6001F","Multiple","Multiple","Multiple","2 x GE RJ45, 1 x 1/10 GE SFP+","N/A","2x 960 GB NVMe","51/17/170 (Mix/per FPC/Max)","45/15/150 (Mix/per FPC/Max)","30/10/100 (Mix/per FPC/Max)","120/120/40.5/120/40.5/13.5 (Mix/per FPC/Max)","4.80 µs","60/20/200","0.900/0.300/3","48/16/160","33/11/110","30,000","10/500","256","Rack Mount, 3 RU","5.3 x 17.2 x 27.3","78.26/79.59","1308/1548 or 1328/1568","2+1 (AC)"
+"6000F Series","6300F/-DC, 6301F/-DC","4","24","N/A","N/A","N/A","2x 960 GB NVMe (6301F)","110","90","60","239/238/135","4.80 µs","120","2","96","66","30,000","10/500","256","Rack Mount, 3 RU","5.3 x 17.2 x 27.3 or 5.20 x 17.20 x 26.18","67.68/69.00","977/1217 or 977/1237","Redundant/1+1 Redundant"
+"6000F Series","6500F/-DC, 6501F/-DC","4","24","N/A","N/A","N/A","2x 960 GB NVMe (6501F)","170","150","100","239/238/135","4.80 µs","200","3","160","110","30,000","10/500","256","Rack Mount, 3 RU","5.20 x 17.20 x 26.18","78.26/79.59","1308/1548 or 1328/1568","Redundant/1+1 Redundant"
+---
+"4800F Series","FG-4800F/-DC","8","24","N/A","2 (10GE/GE)","N/A","0 (2x 1.92TB SSD for FG-4801F)","87","77","75","3.1/3.1/0.93 Tbps","3.6 µs","280/1,800*","0.915/25*","800","63","30,000","10/500","300","Rack Mount, 4 RU","6.89 x 17.13 x 26.10","90.83","1602/1918.2","Hot Swappable (2+2)"
+"4800F Series","FG-4801F/-DC","8","24","N/A","2 (10GE/GE)","N/A","2x 1.92TB SSD","87","77","75","3.1/3.1/0.93 Tbps","3.6 µs","280/1,800*","0.915/25*","800","63","30,000","10/500","300","Rack Mount, 4 RU","6.89 x 17.13 x 26.10","90.83","1622/1938.2","Hot Swappable (2+2)"
+"4800F Series","FG-4801F-NEBS/-DC-NEBS","8","24","N/A","2 (10GE/GE)","N/A","2x 1.92TB SSD","87","77","75","3.1/3.1/0.93 Tbps","3.6 µs","280/1,800*","0.915/25*","800","63","30,000","10/500","300","Rack Mount, 4 RU","6.89 x 17.13 x 26.10","93.03","1528.8/1964.9","Hot Swappable (2+2)"
+---
+"4400F Series","FG-4400F/-DC","12","18","N/A","2 (GE)","N/A","0 (2x 1.92TB SSD for FG-4401F)","94","82","75","1.15/1.14/0.50 Tbps","2.98 µs","210/700*","1/10*","310","86","30,000","10/500","300","Rack Mount, 4 RU","6.97 x 17.20 x 26.17","81.8","1539/1881","Hot Swappable (2+2 AC, 1+1 DC)"
+"4400F Series","FG-4401F/-DC","12","18","N/A","2 (GE)","N/A","2x 1.92TB SSD","94","82","75","1.15/1.14/0.50 Tbps","2.98 µs","210/700*","1/10*","310","86","30,000","10/500","300","Rack Mount, 4 RU","6.97 x 17.20 x 26.17","83.1","1533/1875","Hot Swappable (2+2 AC, 1+1 DC)"
+---
+"4200F Series","FG-4200F/-DC","8","16","N/A","2 (GE)","N/A","0 (2x 1.92TB SSD for FG-4201F)","52","47","45","800/788/400","3.02 µs","210/450*","1/7*","210","50","30,000","10/500","300","Rack Mount, 3 RU","5.22 x 17.20 x 26.17","59.75","931/1291","Hot Swappable (1+1 Redundant)"
+"4200F Series","FG-4201F/-DC","8","16","N/A","2 (GE)","N/A","2x 1.92TB SSD","52","47","45","800/788/400","3.02 µs","210/450*","1/7*","210","50","30,000","10/500","300","Rack Mount, 3 RU","5.22 x 17.20 x 26.17","61.07","940/1306","Hot Swappable (1+1 Redundant)"
+---
+"3700F Series","FG-3700F","4","18","N/A","2 (10GE/GE)","N/A","0 (2x 1.92TB SSD for FG-3701F)","86","80","75","589/589/420","3.56 µs / 1.45 µs","140","0.930","160","55","30,000","10/500","300","Rack Mount, 2 RU","3.5 x 17.44 x 23.9","47.1","590/1140","Yes (Default dual AC PSU)"
+"3700F Series","FG-3701F","4","18","N/A","2 (10GE/GE)","N/A","2x 1.92TB SSD","86","80","75","589/589/420","3.56 µs / 1.45 µs","140","0.930","160","55","30,000","10/500","300","Rack Mount, 2 RU","3.5 x 17.44 x 23.9","48.7","600/1150","Yes (Default dual AC PSU)"
+---
+"3500F Series","FG-3500F","6","32","N/A","2 (10GE/GE)","N/A","0 (2x 1.92TB SSD for FG-3501F)","72","65","63","595/590/420","2.98 µs","140","1","165","63","30,000","10/500","300","Rack Mount, 2 RU","3.5 x 17.4 x 21.9","43.8","760/1174","Yes (Hot Swappable)"
+"3500F Series","FG-3501F","6","32","N/A","2 (10GE/GE)","N/A","2x 1.92TB SSD","72","65","63","595/590/420","2.98 µs","348*","5*","165","63","30,000","10/500","300","Rack Mount, 2 RU","3.5 x 17.4 x 21.9","45.3","785/1181","Yes (Hot Swappable)"
+---
+"3200F Series","FG-3200F","4 (400 GE/200 GE/100 GE/40 GE)","10 (50 GE/25 GE/10 GE/GE SFP Slots)","N/A","2 (10 GE/GE)","N/A","2x 960GB SSD","63","47","45","387/385/178.5","3.42 µs / 1.45 µs","70","0.800","105","29","30,000","10/500","300","Rack Mount, 2RU","3.5 x 17.44 x 23.9","43.9","520/865","Yes (Hot Swappable)"
+"3200F Series","FG-3201F","4 (400 GE/200 GE/100 GE/40 GE)","10 (50 GE/25 GE/10 GE/GE SFP Slots)","N/A","2 (10 GE/GE)","N/A","2x 1 TB SSD","63","47","45","387/385/178.5","3.42 µs / 1.45 µs","70","0.800","105","29","30,000","10/500","300","Rack Mount, 2RU","3.5 x 17.44 x 23.9","45.5","527/870","Yes (Hot Swappable)"
+---
+"3000F Series","FG-3000F","6","16 (2x HA Slots)","16","2 (10GE/GE)","N/A","0 (2x 960GB SSD for FG-3001F)","36","34","33","397/389/221","3.92 µs","70","0.870","105","29","30,000","10/500","300","Rack Mount, 2 RU","3.5 x 17.44 x 21.89","37.3","420/690","Yes (Hot Swappable)"
+"3000F Series","FG-3001F","6","16 (2x HA Slots)","16","2 (10GE/GE)","N/A","2x 960GB SSD","36","34","33","397/389/221","3.92 µs","230*","3*","105","29","30,000","10/500","300","Rack Mount, 2 RU","3.5 x 17.44 x 21.89","38.2","425/680","Yes (Hot Swappable)"
+---
+"2600F Series","FG-2600F/-DC","4","16","16","2 (GE)","N/A","0 (2x 960GB NVMe for FG-2601F)","31","27","25","198/196/140","3.41 µs","24","1","55","20","30,000","10/500","196","Rack Mount, 2RU","3.5 x 17.25 x 21.7","30.6","416/510","Yes (Hot Swappable)"
+"2600F Series","FG-2601F/-DC","4","16","16","2 (GE)","N/A","2x 960GB NVMe SSD","31","27","25","198/196/140","3.41 µs","40*","2*","55","20","30,000","10/500","196","Rack Mount, 2RU","3.5 x 17.25 x 21.7","30.9","420.3/513.7","Yes (Hot Swappable)"
+---
+"1800F Series","FG-1800F/-DC","4","12","16","2 (GE)","8","0 (2x 960GB NVMe for FG-1801F)","22","17","15","198/197/140","3.22 µs","12","0.750","55","12","10,000","10/250","196","Rack Mount, 2RU","3.5 x 17.25 x 21.1","30.2","410.9/459.1","Yes (Default dual AC PSU)"
+"1800F Series","FG-1801F/-DC","4","12","16","2 (GE)","8","2x 960GB NVMe SSD","22","17","15","198/197/140","3.22 µs","40*","2*","55","12","10,000","10/250","196","Rack Mount, 2RU","3.5 x 17.25 x 21.1","30.4","414.9/463.1","Yes (Default dual AC PSU)"
+---
+"1000F Series","FG-1000F","2","8","8","1 (GE)","16","0 (2x 480GB SSD for FG-1001F)","19","15","13","198/196/134","3.45 µs","7.5","0.650","55","10","10,000","10/250","196","Rack Mount, 2RU","3.5 x 17.44 x 17.63","21.94","210/408","Yes (Hot Swappable)"
+"1000F Series","FG-1001F","2","8","8","1 (GE)","16","2x 480GB SSD","19","15","13","198/196/134","3.45 µs","7.5","0.650","55","10","10,000","10/250","196","Rack Mount, 2RU","3.5 x 17.44 x 17.63","22.71","215/415","Yes (Hot Swappable)"
+---
+"900G Series","FG-900G/-DC","N/A","4","16","1 (GE)","8","0 (2x 480GB SSD for FG-901G)","42","31","30","164/163/153","3.78/2.5 µs","16","0.720","55","16.7","10,000","10/50","196","Rack Mount, 1RU","1.5 x 17.0 x 15.0","15.98","170/313","Yes (Hot Swappable)"
+"900G Series","FG-901G/-DC","N/A","4","16","1 (GE)","8","2x 480GB SSD","42","31","30","164/163/153","3.78/2.5 µs","16","0.720","55","16.7","10,000","10/50","196","Rack Mount, 1RU","1.5 x 17.0 x 15.0","16.53","184/323","Yes (Hot Swappable)"
+---
+"700G Series","FG-700G","N/A","4","8","1 (GE)","16","0 (2x 480GB for FG-701G)","38","29","26","164/163/145","3.87 µs","16","0.700","55","14","10,000","10/50","96","Rack Mount, 1RU","1.75 x 17.0 x 13.5","7.72","230/283","Default dual non-swappable AC PSU"
+"700G Series","FG-701G","N/A","4","8","1 (GE)","16","2x 480GB SSD","38","29","26","164/163/145","3.87 µs","16","0.700","55","14","10,000","10/50","96","Rack Mount, 1RU","1.75 x 17.0 x 13.5","7.72","240/295","Default dual non-swappable AC PSU"
+---
+"90G Series","FORTIGATE 90G","N/A","2 (Shared)","8","1 (MGMT/HA)","2 (Shared)","0","4.5","2.5","2.2","28/28/27.9","3.23 µs","3","0.124","25","2.6","200","10/10","24","Desktop","1.65 x 8.5 x 7.0","2.47","19.9/20.53","Redundancy Optional (External DC Power Adapters)"
+"90G Series","FORTIGATE 91G","N/A","2 (Shared)","8","1 (MGMT/HA)","2 (Shared)","1 x 120 GB SSD","4.5","2.5","2.2","28/28/27.9","3.23 µs","3","0.124","25","2.6","200","10/10","24","Desktop","1.65 x 8.5 x 7.0","2.47","22.4/23.5","Redundancy Optional (External DC Power Adapters)"
+---
+"80F Series","FG-80F","N/A","N/A","8","N/A","2 (Shared)","0","1.4","1","0.900","10/10/7","3.23 µs","1.5","0.045","6.5","0.715","200","10/10","24","Desktop/Wall Mount/Rack Tray","1.6 x 8.5 x 7.0","2.4","12.69/15.51","Redundancy Optional (External DC Power Adapters)"
+"80F Series","FG-81F","N/A","N/A","8","N/A","2 (Shared)","1x 128 GB SSD","1.4","1","0.900","10/10/7","3.23 µs","1.5","0.045","6.5","0.715","200","10/10","24","Desktop/Wall Mount/Rack Tray","1.6 x 8.5 x 7.0","2.6","12.6/15.4","Redundancy Optional (External DC Power Adapters)"
+"80F Series","FG-80F-POE","N/A","N/A","8 (PoE/+)","N/A","2 (Shared)","0","1.4","1","0.900","10/10/7","3.23 µs","1.5","0.045","6.5","0.715","200","10/10","24","Desktop/Wall Mount/Rack Tray","2.4 x 8.5 x 7.0","3.1","96/118","Redundancy Optional (External DC Power Adapters)"
+"80F Series","FWF-81F-2R","N/A","N/A","8","N/A","2 (Shared)","1x 128 GB SSD","1.4","1","0.900","10/10/7","3.23 µs","1.5","0.045","6.5","0.715","200","10/10","24","Desktop/Wall Mount/Rack Tray","2.4 x 8.5 x 7.0","3.3","24.79/30.29","Redundancy Optional (External DC Power Adapters)"
+"80F Series","FWF-81F-2R-POE","N/A","N/A","8 (PoE/+)","N/A","2 (Shared)","1x 128 GB SSD","1.4","1","0.900","10/10/7","3.23 µs","1.5","0.045","6.5","0.715","200","10/10","24","Desktop/Wall Mount/Rack Tray","2.4 x 8.5 x 7.0","3.3","107.4/131.3","Redundancy Optional (External DC Power Adapters)"
+---
+"70G Series","FG-70G","N/A","N/A","8","N/A","N/A","0","2.5","1.5","1.3","10/10/10","2.46 µs","1.4","0.100","7.1","1.4","N/A (Not supported)","10/10","24","Desktop","1.6 x 8.5 x 6.3","2.01","12.3/12.8","N/A (External DC Power Adapter)"
+"70G Series","FG-71G","N/A","N/A","8","N/A","N/A","64GB SSD","2.5","1.5","1.3","10/10/10","2.46 µs","1.4","0.100","7.1","1.4","N/A (Not supported)","10/10","24","Desktop","1.6 x 8.5 x 6.3","2.05","13.4/14.1","N/A (External DC Power Adapter)"
+"70G Series","FWF-70G","N/A","N/A","8","N/A","N/A","0","2.5","1.5","1.3","10/10/10","2.46 µs","1.4","0.100","7.1","1.4","N/A (Not supported)","10/10","24","Desktop","1.6 x 8.5 x 6.3","2.23","16.9/17.6","N/A (External DC Power Adapter)"
+"70G Series","FWF-71G","N/A","N/A","8","N/A","N/A","64GB SSD","2.5","1.5","1.3","10/10/10","2.46 µs","1.4","0.100","7.1","1.4","N/A (Not supported)","10/10","24","Desktop","1.6 x 8.5 x 6.3","2.27","16.9/17.6","N/A (External DC Power Adapter)"
+---
+"70F Series","FORTIGATE 70F","N/A","N/A","7 (Internal)","N/A","N/A","0","1.4","1","0.800","10/10/6","2.54 µs","1.5","0.035","6.1","0.700","200","10/10","24","Desktop","1.5 x 8.5 x 6.3","2.23","10.17/12.43","N/A (External DC Power Adapter)"
+"70F Series","FORTIGATE 71F","N/A","N/A","7 (Internal)","N/A","N/A","1 x 128 GB SSD","1.4","1","0.800","10/10/6","2.54 µs","1.5","0.035","6.1","0.700","200","10/10","24","Desktop","1.5 x 8.5 x 6.3","2.23","17.2/18.7","N/A (External DC Power Adapter)"
+---
+"60F Series","FG-60F","N/A","N/A","8","N/A","N/A","0","1.4","1","0.700","10/10/6","3.3 µs","0.720","0.035","6.5","0.630","200","10/10","24","Desktop","1.5 x 8.5 x 6.3","2.23","10.17/12.43","N/A (External DC Power Adapter)"
+"60F Series","FG-61F","N/A","N/A","8","N/A","N/A","1x 128 GB SSD","1.4","1","0.700","10/10/6","3.3 µs","0.720","0.035","6.5","0.630","200","10/10","24","Desktop","1.5 x 8.5 x 6.3","2.23","17.2/18.7","N/A (External DC Power Adapter)"
+"60F Series","FWF-60F","N/A","N/A","8","N/A","N/A","0","1.4","1","0.700","10/10/6","3.3 µs","0.720","0.035","6.5","0.630","200","10/10","24","Desktop","1.5 x 8.5 x 6.3","2.23","17.2/18.7","N/A (External DC Power Adapter)"
+"60F Series","FWF-61F","N/A","N/A","8","N/A","N/A","1x 128 GB SSD","1.4","1","0.700","10/10/6","3.3 µs","0.720","0.035","6.5","0.630","200","10/10","24","Desktop","1.5 x 8.5 x 6.3","2.23","17.5/19.0","N/A (External DC Power Adapter)"
+---
+"50G Series","FG-50G/51G","N/A","N/A","5","N/A","N/A","0 (64GB SSD for 51G)","2.25","1.25","1.1","5/5/4","2.42 µs","0.720","0.085","4.5","1.3","N/A (Not supported)","5/5","8","Desktop","1.6 x 8.5 x 6.3","2.2","8.3/8.9","N/A (External DC Power Adapter)"
+"50G Series","FWF-50G/51G","N/A","N/A","5","N/A","N/A","0 (64GB SSD for 51G)","2.25","1.25","1.1","5/5/4","2.42 µs","0.720","0.085","4.5","1.3","N/A (Not supported)","5/5","8","Desktop","1.6 x 8.5 x 6.3","2.4","8.3/8.9","N/A (External DC Power Adapter)"
+"50G Series","FG-50G-5G/51G-5G","N/A","N/A","5","N/A","N/A","0 (64GB SSD for 51G-5G)","2.25","1.25","1.1","5/5/4","2.42 µs","0.720","0.085","4.5","1.3","N/A (Not supported)","5/5","8","Desktop","1.7 x 8.5 x 7.0","2.4","20.43/23.59","N/A (External DC Power Adapter)"
+---
+"40F Series","FG-40F","N/A","N/A","5","N/A","N/A","0","1","0.800","0.600","5/5/5","2.97 µs","0.700","0.035","4.4","0.310","200","10/10","8","Desktop","1.5 x 8.5 x 6.3","2.2","7.74/9.46","N/A (External DC Power Adapter)"
+"40F Series","FWF-40F","N/A","N/A","5","N/A","N/A","0","1","0.800","0.600","5/5/5","2.97 µs","0.700","0.035","4.4","0.310","200","10/10","8","Desktop","1.5 x 8.5 x 6.3","2.2","14.6/16.6","N/A (External DC Power Adapter)"
+---
+"30G Series","FG-30G/31G","N/A","N/A","4","N/A","N/A","0 (30GB SSD for 31G)","0.800","0.570","0.500","4/4/3.9","2.87 µs","0.600","0.030","3.5","0.400","N/A (Not supported)","Not Supported","8","Desktop","1.6 x 5.6 x 6.3","1.3","8.1/9.3","N/A (External DC Power Adapter)"
+"30G Series","FWF-30G/31G","N/A","N/A","4","N/A","N/A","0 (30GB SSD for 31G)","0.800","0.570","0.500","4/4/3.9","2.87 µs","0.600","0.030","3.5","0.400","N/A (Not supported)","Not Supported","8","Desktop","1.6 x 5.6 x 6.3","1.5","11.3/13.6","N/A (External DC Power Adapter)"
+---
+"400F Series","FG-400F/-DC","N/A","8 (4x 10GE, 4x 10GE ULL)","16","2","8","0","12","10","9","79.5/78.5/70","4.19 µs / 2.5 µs","7.8","0.500","55","8","5,000","10/25","96","Rack Mount, 1 RU","1.75 x 17.0 x 15.0","14.11","154.8/189.2","Yes (Hot Swappable)"
+"400F Series","FG-401F/-DC","N/A","8 (4x 10GE, 4x 10GE ULL)","16","2","8","2x 480 GB SSD","12","10","9","79.5/78.5/70","4.19 µs / 2.5 µs","7.8","0.500","55","8","5,000","10/25","96","Rack Mount, 1 RU","1.75 x 17.0 x 15.0","14.33","161.1/196.9","Yes (Hot Swappable)"
+---
+"200F Series","FORTIGATE 200F","N/A","4","16","1/1","8","0","5","3.5","3","27/27/11","478 µs","3","0.280","13","4","500","10/25","64","Ear Mount, 1 RU","1.73 x 17.01 x 13.47","9.92","101.92/118.90","Yes (Default dual non-swappable AC PSU)"
+"200F Series","FORTIGATE 201F","N/A","4","16","1/1","8","1x 480 GB SSD","5","3.5","3","27/27/11","478 µs","3","0.280","13","4","500","10/25","64","Ear Mount, 1 RU","1.73 x 17.01 x 13.47","10.14","104.52/121.94","Yes (Default dual non-swappable AC PSU)"
+---
+"120G Series","FORTIGATE 120G","N/A","4","16","1/1","8","0","5.3","3.1","2.8","39/39/28","3.17 µs","3","0.140","35","3","500","10/10","48","Rack Mount, 1RU","1.73 x 17 x 10","12.17","43/47","Yes (Default dual non-swappable AC PSU)"
+"120G Series","FORTIGATE 121G","N/A","4","16","1/1","8","1x 480 GB SSD","5.3","3.1","2.8","39/39/28","3.17 µs","3","0.140","35","3","500","10/10","48","Rack Mount, 1RU","1.73 x 17 x 10","12.17","38/40","Yes (Default dual non-swappable AC PSU)"
+---
+"100F Series","FORTIGATE 100F","N/A","2","12 (plus 4 shared)","1/2/1 (MGMT/HA/DMZ)","4 (plus 4 shared)","0","2.6","1.6","1","20/18/10","4.97 µs","1.5","0.056","11.5","1","500","10/10","32","Rack Mount, 1 RU","1.73 x 17 x 10","7.25","26.5/29.5","Yes (Default dual non-swappable AC PSU)"
+"100F Series","FORTIGATE 101F","N/A","2","12 (plus 4 shared)","1/2/1 (MGMT/HA/DMZ)","4 (plus 4 shared)","1x 480 GB SSD","2.6","1.6","1","20/18/10","4.97 µs","1.5","0.056","11.5","1","500","10/10","32","Rack Mount, 1 RU","1.73 x 17 x 10","7.56","35.3/39.1","Yes (Default dual non-swappable AC PSU)"
+---
+"Rugged Series","FGR-70G","N/A","N/A","6","N/A","2","N/A","2.5","1.5","1.3","8/8/8","5.82 µs","1.4","0.085","71","1.4","N/A (Not supported on v7.6.0+)","10/10","24","DIN-rail","4.4 x 2.8 x 4.8","2.2","18.3/19.9","Redundant Dual DC Inputs"
+"Rugged Series","FGR-70G-5G-DUAL","N/A","N/A","6","N/A","2","N/A","2.5","1.5","1.3","8/8/8","5.82 µs","1.4","0.085","71","1.4","N/A (Not supported on v7.6.0+)","10/10","24","DIN-rail","5.47 x 4.1 x 4.8","4.63","25/26.2","Redundant Dual DC Inputs"
+"Rugged Series","FGR-70F","N/A","N/A","6","N/A","2","N/A","0.975","0.950","0.580","8/8/8","6.71 µs","1","0.035","6.5","0.500","100","10/10","24","DIN-rail","4.4 x 3.2 x 4.8","2.87","18.3/19.9","Redundant Dual DC Inputs"
+"Rugged Series","FGR-70F-3G4G","N/A","N/A","6","N/A","2","N/A","0.975","0.950","0.580","8/8/8","6.71 µs","1","0.035","6.5","0.500","100","10/10","24","DIN-rail","4.4 x 3.2 x 4.8","2.87","16/18","Redundant Dual DC Inputs"
+"Rugged Series","FGR-60F","N/A","N/A","4 (plus 2 shared)","N/A","2 (Shared)","N/A","0.950","0.550","0.500","6/6/5.95","3.10 µs","0.600","0.019","3.5","0.460","100","10/10","24","Desktop/DIN-rail/Wall Mount","1.68 x 8.50 x 6.70","3.85","15/21","Redundant Dual DC Inputs"
+"Rugged Series","FGR-60F-3G4G","N/A","N/A","4 (plus 2 shared)","N/A","2 (Shared)","N/A","0.950","0.550","0.500","6/6/5.95","3.10 µs","0.600","0.019","3.5","0.460","100","10/10","24","Desktop/DIN-rail/Wall Mount","1.68 x 8.50 x 6.70","4.06","16/24","Redundant Dual DC Inputs"
+"Rugged Series","FGR-50G-5G","N/A","N/A","6","N/A","2","N/A","2.25","1.25","1.1","6/6/6","2.43 µs","0.700","0.085","5.3","1.3","N/A (Not supported on v7.6.0+)","5/5","8","DIN-rail","5.47 x 3.52 x 4.80","3.97","16/24","Redundant Dual DC Inputs"
